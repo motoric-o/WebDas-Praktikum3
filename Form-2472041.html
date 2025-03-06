@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body bgcolor="#e8efff" align="center">
+    <h1 align="center">Form Kursus Pemrograman</h1>
+    <hr color="#75d3de">
+    <br>
+    <h2 align="center">Bahasa Pemrograman:</h2>
+    <form method="get" align="center">
+        <input type="radio" name="bahasa_pemrograman" value="HTML">HTML
+        <input type="radio" name="bahasa_pemrograman" value="JavaScript">JavaScript
+        <input type="radio" name="bahasa_pemrograman" value="Python">Python
+        <input type="radio" name="bahasa_pemrograman" value="Java">Java
+        <input type="radio" name="bahasa_pemrograman" value="PHP">PHP
+        <br><br>
+        Nama Materi: <input type="text" name="nama_materi">
+        <br><br>
+        Pilih Level Kesulitan: <select name="level_kesulitan">
+            <option value="pemula">Pemula</option>
+            <option value="menengah">Menengah</option>
+            <option value="lanjutan">Lanjutan</option>
+        </select>
+    </form>
+    <br>
+    <h2 align="center">Topik yang Dipelajari:</h2>
+    <form method="get" align="center">
+        <input type="checkbox" name="topik" value="SintaksDasar">Sintaks Dasar
+        <input type="checkbox" name="topik" value="StrukturData">Struktur Data
+        <input type="checkbox" name="topik" value="OOP">OOP(Object-Oriented Programming)
+        <input type="checkbox" name="topik" value="Algoritma">Algoritma
+        <input type="checkbox" name="topik" value="Database">Database
+        <br><br>
+        Durasi Belajar (jam): <input type="text" name="durasi">
+        <br><br>
+        Keterangan: <textarea name="keterangan"></textarea>
+        <br><br>
+        <input type="submit" value="Kirim">
+    </form>
+    <hr color="#75d3de">
+    <p><big>Made by 2472041 - Rico Dharmawan<sup>&trade;</sup></big></p>
+</body>
+</html>
